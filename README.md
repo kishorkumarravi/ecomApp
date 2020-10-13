@@ -6,12 +6,19 @@ To Run this Repo in local:
 
 1. Make sure you are in the parent repository 
 2. Create python virtualEnvironment and  Execute the following commands,
-  To Migrate all your repository settings
+
+To Migrate all your repository settings
     `python manage.py migrate`
+    
+
   To Create a super user for your django adminstrator page
     `python manage.py migrate`
+    
+
   To create tables for your data models
     `python manage.py migrate --run-syncdb`
+    
+
   To Run the server up 
     `python manage.py runserver`
     
