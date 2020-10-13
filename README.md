@@ -12,7 +12,7 @@ To Migrate all your repository settings
     
 
   To Create a super user for your django adminstrator page
-    `python manage.py migrate`
+    `python manage.py createsuperuser`
     
 
   To create tables for your data models
